@@ -1,0 +1,117 @@
+            body {
+                font-family: "Baloo 2", cursive;
+                background-color: #fdeaf6;
+            }
+            .heading{
+                position:fixed;
+            }
+
+            .header {
+                position: fixed;
+                left:0px;
+                top:0px;
+                width:100%;
+                z-index: 1000;
+                background-color:#ff66c4da;
+                }
+           
+
+
+            .header img{
+                display:block;
+                width:100%;
+                height:auto;
+            }
+            
+             .headerstuff{
+                height: 80px;
+                object-fit:contain;
+            }
+
+            
+
+         
+
+            .about-usbutton:hover, .diy-button:hover, .homebutton:hover, .termsbutton:hover {
+                cursor: pointer;
+                color:rgb(253, 255, 129);
+                transform: scale(1.40);
+                transition-duration: 0.22s;
+            }
+
+
+            .button-class{
+                display:flex;
+                gap:30px;
+
+                
+            }
+
+            .about-usbutton:active,.diy-button:active, .homebutton:active, .termsbutton:active {
+                color:black;
+                transition-duration: 0.2s;
+            }
+            
+            .homebutton{
+                width:100%;
+                height:auto;
+                background-color:transparent;
+                border:none;
+                color:rgb(255, 255, 255);
+                font-size: 20px;
+                font-family: "Baloo 2", cursive;
+                margin-left: 10px;
+            }
+            .about-usbutton,.diy-button, .termsbutton {
+                width:100%;
+                height:auto;
+                background-color:transparent;
+                border:none;
+                color:rgb(255, 255, 255);
+                font-size: 20px;
+                font-family: "Baloo 2", cursive;
+                
+            }
+
+          
+                
+          
+
+            .section1{
+                display:flex;
+                flex-wrap: wrap;
+                gap:10px;
+               
+               
+                
+            }
+
+            .section1 img{
+               width:100%;
+               max-width:300px;
+               height:auto;
+               object-fit:cover;
+            }
+
+         
+            .createdworks{
+                display:block;
+                width:250px;
+                max-width: 100%;
+                height: auto;
+            }
+
+        
+
+            .description1{
+                display: block;
+                margin-left: 22px;
+
+            }
+           
+            .responsive-img {
+             width: 100%;
+             max-width:200px;
+             
+            }
+           
